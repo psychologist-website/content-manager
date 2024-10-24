@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_accardions",
+  "info": {
+    "displayName": "Accardion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string",
+      "required": true,
+      "default": "20 минут"
+    },
+    "coast": {
+      "type": "string",
+      "default": "бесплатно",
+      "required": true
+    },
+    "what_is_it_for": {
+      "displayName": "Multi text",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.multi-text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false,
+      "default": "Кому подойдет:"
+    }
+  }
+}

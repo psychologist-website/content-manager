@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_block_2s",
+  "info": {
+    "displayName": "Card_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Название секции"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.accardion",
+      "required": true
+    }
+  }
+}

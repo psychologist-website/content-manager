@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blocks_block_1s",
+  "info": {
+    "displayName": "Main_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "КОНСУЛЬТАЦИЯ ПСИХОЛОГА"
+    },
+    "your_name": {
+      "type": "string",
+      "required": true,
+      "default": "Оксана Кривцова"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "bg_color": {
+      "type": "string",
+      "required": true,
+      "default": "#8E5800"
+    },
+    "skils": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-title"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "main"
+    }
+  }
+}

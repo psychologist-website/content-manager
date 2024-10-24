@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_block_3s",
+  "info": {
+    "displayName": "Line_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_multi_texts",
+  "info": {
+    "displayName": "Multi text"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "default": "Познакомиться"
+    }
+  }
+}
