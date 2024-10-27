@@ -126,9 +126,10 @@ export interface BlocksSliderBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_slider_blocks';
   info: {
     displayName: 'Slider_block';
+    description: '';
   };
   attributes: {
-    Title: Schema.Attribute.String &
+    title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'\u041E\u0411\u041E \u041C\u041D\u0415'>;
     name: Schema.Attribute.String & Schema.Attribute.Required;
